@@ -1,0 +1,391 @@
+
+body {
+    background-color: #020202 !important;
+}
+
+.left-items {
+    font-weight: bolder;
+    letter-spacing: -0.5px;
+}
+
+.main {
+    background-color: #020202;
+    height: 60px;
+    border-bottom: 0.1px solid rgb(89, 87, 87) !important;
+}
+
+.togler-color {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler-icon-white {
+    background-color: white;
+}
+
+#logo-img {
+    height: 36px;
+    cursor: pointer;
+}
+
+.nav-end-icon {
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+#nav-right-icon {
+    height: 36px;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+
+.offcanvas {
+    background-color: #020202 !important;
+}
+
+.hamberger {
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+.burgerfirst {
+    width: 30px;
+}
+
+.hamberger:hover {
+    color: rgb(252, 175, 23) !important;
+}
+
+.section-1-img-text {
+    color: #ffffff;
+}
+
+.watch-me-btn {
+    width: 200px;
+    height: 50px;
+    color: #ffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.watch-me-btn:hover {
+    background-color: rgb(255, 172, 0);
+    color: rgb(2, 2, 2) !important;
+    border-color: rgb(255, 172, 0) !important;
+}
+
+.section-1-font {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.6rem !important;
+}
+
+.section-1-btn {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .section-1-img-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.9rem !important;
+    }
+}
+
+/* Media query for screens with a maximum width of 360px */
+@media (max-width: 360px) {
+    .section-1-img-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 0px !important;
+    }
+    h2 {
+        font-size: 0.9rem !important;
+    }
+}
+
+.image-column {
+    padding: 0px 0px !important;
+}
+
+.newswire {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.news-date {
+    color: rgb(130, 128, 128);
+    font-size: 13px !important;
+}
+
+
+.card {
+    height: 100%;
+    background-color: #020202 !important;
+    color: #ffffff !important;
+    border: 0.3px solid #808080 !important;
+    cursor: pointer;
+}
+
+
+.view {
+    color: rgb(255, 255, 255) !important;
+    font-size: 17px !important;
+    text-decoration: underline rgb(255, 172, 0);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+
+.view-btn {
+    background-color: transparent;
+}
+
+.view-btn button.view {
+    border: none;
+    border-bottom: 4px solid rgb(252, 175, 23);
+    border-radius: none;
+}
+
+.view:hover {
+    background-color: rgb(255, 172, 0);
+    transition: 1s;
+    color: black !important;
+}
+
+.custom-card {
+    height: 100%;
+    cursor: pointer;
+}
+
+.custom-card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured-games {
+    color: #ffffff !important;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 12px;
+    }
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 9px;
+    }
+}
+
+/* Media query for screens with a maximum width of 400px */
+@media (max-width: 400px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 7px;
+    }
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .footer-links.align-items-sm-center {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+.footer-links li {
+    display: inline;
+    margin-right: 30px;
+    color: #cecece;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.footer-links li:hover {
+    color: rgb(255, 172, 0);
+    transition: 0.5s;
+}
+
+
+.links {
+    font-size: 20px !important;
+}
+
+/* Media query for screens with a maximum width of 700px */
+@media (max-width: 700px) {
+    .links {
+        font-size: 16px !important;
+    }
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .d-flex.flex-column.justify-content-start.align-items-sm-end {
+        align-items: flex-start;
+    }
+}
+
+/* Style for footer icons */
+.footer-icons {
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out !important;
+}
+
+.footer-icons:hover {
+    opacity: 0.3;
+    transition: 1s;
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+    .footer-icons {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.links-2 {
+    font-size: 10px;
+    color: #808080;
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 12px;
+    }
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 9px;
+    }
+}
+
+/* Media query for screens with a maximum width of 400px */
+@media (max-width: 400px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 7px;
+    }
+}
+
+
+.footer-2-line:hover {
+    opacity: 0.3;
+}
+
+.rklink{
+text-decoration: none;
+}
+
+.links:hover {
+    color: rgb(252, 175, 23);
+    transition: 1s;
+}
+
+
+.search-bar {
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.scroll-to-top-button.show {
+    display: block;
+}
+
+
+.dropdown-button {
+    background-color: black;
+    color: white;
+    padding: 22px;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.dropdown-button:hover {
+    background-color: rgb(128, 128, 128);
+    transition: 1s;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 50px;
+    right: 0;
+}
+
+
+
+
+
+
